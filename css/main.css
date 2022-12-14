@@ -46,7 +46,7 @@ body {
 main {
   background-color: var(--smoke-light);
   min-height: 100vh;
-  padding-top: 3.5rem;
+  padding-top: 4.5rem;
 }
 
 hr {
@@ -431,8 +431,8 @@ input[type=number] {
 
 /* NAVBAR */
 header .container-fluid {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .navbar-landingPage {
@@ -452,3 +452,41 @@ header .container-fluid {
   margin-right: 0;
 }
 /* END NAVBAR */
+
+/* HERO  */
+.hero {
+  /* background-color: pink; */
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 42rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(20, 20, 43, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.content-hero {
+  /* background-color: salmon; */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  z-index: 2;
+  color: var(--white);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.content-hero h1, .content-hero p {
+  margin-bottom: 1.5rem;
+}
+/* END HERO/ */

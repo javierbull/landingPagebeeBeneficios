@@ -1,7 +1,7 @@
 /* Large devices (laptops, less than 1400px) */
 @media (max-width: 1400px) {
   main {
-    background-color: pink;
+    background-color: gray;
   }
 }
 
@@ -16,6 +16,15 @@
 @media (max-width: 991.98px) {
   main {
     background-color: salmon;
+  }
+
+  .navbar-nav li {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .navbar-nav li button {
+    margin-top: 1rem;
   }
 }
 
