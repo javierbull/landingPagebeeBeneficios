@@ -550,3 +550,60 @@ header .container-fluid {
   justify-content: center;
 }
 /* END SECTION SERVICES */
+
+/* OWL CAROUSEL */
+.carousel-wrap {
+  /* background-color: pink; */
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+.owl-carousel .owl-nav {
+  overflow: hidden;
+  height: 0;
+  margin: 0;
+}
+
+.owl-carousel .nav-btn {
+  height: 100%;
+  position: absolute;
+  width: 3rem;
+  cursor: pointer;
+  top: 0 !important;
+}
+
+.owl-carousel .owl-prev.disabled,
+.owl-carousel .owl-next.disabled {
+  pointer-events: none;
+  opacity: 0.2;
+}
+
+.owl-carousel .prev-slide {
+  background: url(../img/icons/arrow_back.svg) no-repeat scroll 50% 50%;
+  left: -58px;
+}
+
+.owl-carousel .next-slide {
+  background: url(../img/icons/arrow_forward.svg) no-repeat scroll 50% 50%;
+  right: -58px;
+}
+/* END OWL CAROUSEL */
+
+/* SECTION ALLIES */
+.section-allies {
+  /* background-color: lavender; */
+}
+
+.owl-carousel-brands .item {
+  border-radius: .5rem;
+  overflow: hidden;
+  margin: .5rem;
+  box-shadow: 0px 2px 12px rgba(43, 41, 34, 0.16);
+}
+
+.wrap-allies-cta {
+  padding-top: 3.5rem;
+  text-align: center;
+}
+/* END SECTION ALLIES */

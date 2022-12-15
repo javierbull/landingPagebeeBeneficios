@@ -1,21 +1,21 @@
 /* Large devices (laptops, less than 1400px) */
 @media (max-width: 1400px) {
   main {
-    background-color: gray;
+    /* background-color: gray; */
   }
 }
 
 /* Large devices (desktops, tablets landscape, less than 1200px) */
 @media (max-width: 1199.98px) {
   main {
-    background-color: lavender;
+    /* background-color: lavender; */
   }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
   main {
-    background-color: salmon;
+    /* background-color: salmon; */
   }
 
   /* NAVBAR */
@@ -29,24 +29,35 @@
   }
   /* END NAVBAR */
 
-  /* ABOUT */
+  /*SECTION ABOUT */
   .section {
     padding: 2rem .5rem;
   }
-  /* END ABOUT */
+  /* END SECTION ABOUT */
+
+  /* OWL CAROUSEL */
+  .owl-carousel .nav-btn {
+    display: none;
+  }
+
+  .carousel-wrap {
+    /* background-color: blue; */
+    width: 100%;
+  }
+  /* END OWL CAROUSEL */
 
 }
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   main {
-    background-color: lightblue;
+    /* background-color: lightblue; */
   }
 }
 
 
 @media (max-width: 575.98px) {
   main {
-    background-color: lightyellow;
+    /* background-color: lightyellow; */
   }
 }
