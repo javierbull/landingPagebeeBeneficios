@@ -36,7 +36,6 @@ html {
 }
 
 body {
-  background-color: var(--white);
   color: var(--dark);
   font-family: 'Poppins', sans-serif;
   line-height: normal;
@@ -44,7 +43,7 @@ body {
 }
 
 main {
-  background-color: var(--smoke-light);
+  background-color: var(--white);
   min-height: 100vh;
   padding-top: 4.5rem;
 }
@@ -514,4 +513,15 @@ header .container-fluid {
   border-radius: .5rem;
 }
 
+.section-header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 /* END SECTION ABOUT */
+
+/* SECTION SERVICES */
+.section-services {
+  background-color: var(--smoke-light);
+}
+/* END SECTION SERVICES */
