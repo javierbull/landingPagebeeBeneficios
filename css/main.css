@@ -607,3 +607,9 @@ header .container-fluid {
   text-align: center;
 }
 /* END SECTION ALLIES */
+
+/* SECTION WHY */
+.section-why {
+  background-color: var(--smoke-light);
+}
+/* END SECTION WHY */
