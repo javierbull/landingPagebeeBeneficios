@@ -741,6 +741,53 @@ header .container-fluid {
 .form-contact {
   /* background-color: lavender; */
 }
-
-
 /* END SECTION CONTACT */
+
+/* FOOTER */
+.main-footer {
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+.footer-body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.footer-bottom {
+  padding: 1rem;
+}
+
+.footer-bottom img {
+  display: block;
+  margin-left: auto;
+  /* margin-right: auto; */
+}
+
+.title-footer-list {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer-list {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0;
+}
+
+.footer-list li {
+  margin-bottom: 1.5rem;
+}
+
+.footer-list-item a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer-list-item a:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+/* END FOOTER */
