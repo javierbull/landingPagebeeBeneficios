@@ -46,6 +46,14 @@
   }
   /* END OWL CAROUSEL */
 
+  /* SECTION WHY */
+  .card-kpi {
+    /* background-color: salmon; */
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+  /* END SECTION WHY */
+
 }
 
 /* Small devices (landscape phones, less than 768px) */

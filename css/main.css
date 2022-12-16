@@ -517,6 +517,7 @@ header .container-fluid {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-bottom: 1rem;
 }
 /* END SECTION ABOUT */
 
@@ -526,7 +527,7 @@ header .container-fluid {
 }
 
 .wrap-service-cards {
-  padding-top: 3.5rem;
+  padding-top: 2rem;
 }
 
 .card-service {
@@ -611,5 +612,34 @@ header .container-fluid {
 /* SECTION WHY */
 .section-why {
   background-color: var(--smoke-light);
+}
+
+.wrap-cards {
+  /* background-color: salmon; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-kpi {
+  background-color: var(--white);
+  height: 100%;
+  box-shadow: 0px 2px 12px rgba(43, 41, 34, 0.16);
+  border-radius: .5rem;
+  padding: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  transition: .2s  ease-in;
+}
+
+.card-kpi:hover {
+  transform: scale(1.1);
+}
+
+.card-kpi__number {
+  font-size: 3rem;
+}
+
+.card-kpi__text {
+  font-size: 1.2rem;
 }
 /* END SECTION WHY */
