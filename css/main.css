@@ -668,3 +668,21 @@ header .container-fluid {
   height: 3.75rem;
 }
 /* END SECTION BRANDS */
+
+/* SECTION CONTACT */
+.section-contact {
+  background-color: var(--smoke-light);
+}
+
+.sectionAndLogo {
+  /* background-color: pink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: .5rem;
+}
+
+.section-contact .section-header img {
+  height: 2rem;
+}
+/* END SECTION CONTACT */
