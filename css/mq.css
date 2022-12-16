@@ -67,6 +67,21 @@
   main {
     /* background-color: lightblue; */
   }
+
+  /* SECTION CONTACT */
+  .sectionAndLogo {
+    /* background-color: pink; */
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: .1rem;
+  }
+
+  .section-contact .section-header img {
+    height: 1.8rem;
+  }
+  /* END SECTION CONTACT */
 }
 
 
