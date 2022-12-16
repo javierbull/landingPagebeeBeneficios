@@ -60,6 +60,13 @@
   }
   /* END SECTION BRANDS */
 
+  /* SECTION CONTACT */
+  .info-contact-list {
+    /* background-color: pink; */
+    margin-bottom: 2rem;
+  }
+  /* END SECTION CONTACT */
+
 }
 
 /* Small devices (landscape phones, less than 768px) */
