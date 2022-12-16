@@ -53,16 +53,21 @@ hr {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+h4 {
   font-size: 1.25rem;
   font-weight: 700;
 }
@@ -426,6 +431,13 @@ input[type=number] {
 }
 /* END SWITCH BTN */
 
+.render-img {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
 /* FIN ESTILOS GENERALES */
 
 /* NAVBAR */
@@ -643,3 +655,16 @@ header .container-fluid {
   font-size: 1.2rem;
 }
 /* END SECTION WHY */
+
+/* SECTION BRANDS */
+.wrap-brands {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 2rem;
+  justify-content: center;
+}
+
+.wrap-brands img {
+  height: 3.75rem;
+}
+/* END SECTION BRANDS */
