@@ -499,6 +499,7 @@ header .container-fluid {
 .navbar-landingPage {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  box-shadow: 0px 4px 4px rgba(175, 177, 189, 0.25);
 }
 
 .navbar-brand img {
