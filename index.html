@@ -464,7 +464,7 @@
                 </a>
               </li>
               <li class="footer-list-item">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modal-sobreBee">
                   Sobre BeeBeneficios
                 </a>
               </li>
@@ -529,11 +529,11 @@
   </footer>
 
   <!-- MODALS -->
-  <div class="modal fade" id="modal-acercaDeBee" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="modal-acercaDeBee" tabindex="-1" aria-labelledby="titleModalLabel__acercaDeBee" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 id="exampleModalLabel">Acerca de Bee</h3>
+          <h3 id="titleModalLabel__acercaDeBee">Acerca de Bee</h3>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -545,7 +545,31 @@
             otras empresas, integrándolas y acompañándolas en el logro de su visión.
           </p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer d-none">
+          <button type="button" class="btn button-ghost" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn button-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-sobreBee" tabindex="-1" aria-labelledby="titleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="titleModalLabel__sobreBee">Sobre BeeBeneficios</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Es una programa que atiende a empresas y sus trabajadores a
+            través de activaciones presenciales con visitas "in house" y
+            digitales a través de una plataforma digital. Acercamos las
+            marcas a clientes potenciales a través de nuestra plataforma y
+            generamos interacción con ellos con el apoyo de las áreas de gestión humana.
+          </p>
+        </div>
+        <div class="modal-footer d-none">
           <button type="button" class="btn button-ghost" data-bs-dismiss="modal">Close</button>
           <button type="button" class="btn button-primary">Save changes</button>
         </div>
