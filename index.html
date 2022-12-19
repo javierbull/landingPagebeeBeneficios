@@ -459,17 +459,17 @@
             </h5>
             <ul class="footer-list">
               <li class="footer-list-item">
-                <a href="#" data-toggle="modal" data-target=".modal-acercaDeBee">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#modal-acercaDeBee">
                   Acerca de bee
                 </a>
               </li>
               <li class="footer-list-item">
-                <a href="#" data-toggle="modal" data-target=".modal-sobreBeeBeneficios">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                   Sobre BeeBeneficios
                 </a>
               </li>
               <li class="footer-list-item">
-                <a href="preguntasFrecuentes.html" data-toggle="modal" target="_blank">
+                <a href="preguntasFrecuentes.html" target="_blank">
                   Preguntas frecuentes
                 </a>
               </li>
@@ -527,6 +527,33 @@
       </div>
     </div>
   </footer>
+
+  <!-- MODALS -->
+  <div class="modal fade" id="modal-acercaDeBee" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="exampleModalLabel">Acerca de Bee</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            bee acompaña tus propósitos creando e impulsando soluciones
+            creativas para atender las necesidades de sus clientes,
+            corporativos o finales, brindándoles plataformas digitales
+            que les permitan obtener beneficios, a través de alianzas con
+            otras empresas, integrándolas y acompañándolas en el logro de su visión.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn button-ghost" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn button-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END MODALS -->
+
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
 	<script src="js/owlcarouselmain.js"></script>
