@@ -526,8 +526,8 @@ header .container-fluid {
 
 /* HERO  */
 .hero {
-  /* background-color: pink; */
-  background-image: url(../img/hero.jpg);
+  background-color: pink;
+  /* background-image: url(../img/hero.jpg); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -538,6 +538,15 @@ header .container-fluid {
   align-items: center;
   position: relative;
 }
+
+.bg-img-hero {
+  background-image: url(../img/hero.jpg);
+}
+
+.bg-img-hero-2 {
+  background-image: url(../img/hero-2.jpg);
+}
+
 
 .overlay {
   background-color: rgba(20, 20, 43, 0.7);
