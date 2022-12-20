@@ -825,3 +825,11 @@ header .container-fluid {
   text-decoration: underline;
 }
 /* END FOOTER */
+
+/* PÁGINA NUESTROS SERVICIOS */
+
+.section-services-plans {
+  background-color: var(--white);
+}
+
+/* END PÁGINA NUESTROS SERVICIOS */
