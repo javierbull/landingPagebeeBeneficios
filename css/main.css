@@ -832,4 +832,8 @@ header .container-fluid {
   background-color: var(--white);
 }
 
+.table-plans-service {
+  background-color: lavender;
+}
+
 /* END PÁGINA NUESTROS SERVICIOS */
