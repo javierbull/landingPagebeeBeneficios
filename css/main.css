@@ -514,13 +514,13 @@ header .container-fluid {
   margin-right: 0;
 }
 
-.navbar-nav li a {
+.navbar-nav .nav-item .nav-link {
   color: var(--dark) !important;
   transition: .1s  ease-in;
 }
 
-.navbar-nav li a:hover {
-  font-weight: 600;
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--info) !important;
 }
 /* END NAVBAR */
 
