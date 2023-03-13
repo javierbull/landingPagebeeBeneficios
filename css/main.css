@@ -728,10 +728,14 @@ header .container-fluid {
 }
 
 .owl-carousel-brands .item {
-  border-radius: .5rem;
+  border-radius: 1rem;
   overflow: hidden;
   margin: .5rem;
   box-shadow: var(--shadow);
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 
 .wrap-allies-cta {
