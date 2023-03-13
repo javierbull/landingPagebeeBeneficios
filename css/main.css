@@ -515,7 +515,7 @@ input[type=number] {
 }
 
 .modal-detalle-servicio__desc {
-  text-align: center;
+  /* text-align: center; */
 }
 /* END MODALS */
 
