@@ -638,6 +638,8 @@ header .container-fluid {
   -o-border-radius: 1rem;
   box-shadow: var(--shadow);
   transition: ease .3s;
+  position: relative;
+  padding-bottom: 4rem;
 }
 
 .card-service:hover {
@@ -652,9 +654,9 @@ header .container-fluid {
 
 .wrap-service-cta {
   /* background-color: lightblue; */
-  padding-top: 1.5rem;
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 1rem;
 }
 /* END SECTION SERVICES */
 
