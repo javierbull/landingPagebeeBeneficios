@@ -490,9 +490,32 @@ input[type=number] {
   border-radius: .5rem;
 }
 
+.modal-body {
+  padding-top: 0;
+}
+
 .modal-footer {
   padding: 1rem ;
   border-top: none;
+}
+
+.modal-detalle-servicio {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.detalle-servicio__img {
+  width: 100%;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+}
+
+.modal-detalle-servicio__desc {
+  text-align: center;
 }
 /* END MODALS */
 
@@ -620,6 +643,7 @@ header .container-fluid {
   display: flex;
   justify-content: center;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 .card-service {
@@ -629,8 +653,7 @@ header .container-fluid {
   align-items: center;
   text-align: center;
   padding: 1rem;
-  max-width: 20rem;
-  min-width: 16rem;
+  width: 18rem;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -639,7 +662,7 @@ header .container-fluid {
   box-shadow: var(--shadow);
   transition: ease .3s;
   position: relative;
-  padding-bottom: 4rem;
+  padding-bottom: 3.5rem;
 }
 
 .card-service:hover {
