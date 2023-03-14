@@ -105,6 +105,12 @@
     /* background-color: lightyellow; */
   }
 
+  /* Section hero */
+  .content-hero h1 {
+    font-size: 1.75rem;
+  }
+  /* End section hero */
+
   /* Section Contact */
   .info-contact-list li {
     /* background-color: aquamarine; */
