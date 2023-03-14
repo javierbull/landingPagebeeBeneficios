@@ -672,11 +672,19 @@ header .container-fluid {
   transition: ease .3s;
   position: relative;
   padding-bottom: 3.5rem;
+  -webkit-transition: ease .3s;
+  -moz-transition: ease .3s;
+  -ms-transition: ease .3s;
+  -o-transition: ease .3s;
 }
 
 .card-service:hover {
   box-shadow: var(--shadow-hover);
-  /* transform: scale(1.025); */
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
 
 .card-service__title {
