@@ -844,6 +844,10 @@ header .container-fluid {
 .form-contact {
   /* background-color: lavender; */
 }
+
+#form-dni {
+  display: none;
+}
 /* END SECTION CONTACT */
 
 /* FOOTER */
