@@ -679,6 +679,10 @@ header .container-fluid {
   /* transform: scale(1.025); */
 }
 
+.card-service__title {
+  font-size: 1.25rem;
+}
+
 .card-service img {
   width: 4rem;
   height: 4rem;
