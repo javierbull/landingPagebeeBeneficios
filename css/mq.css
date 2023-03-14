@@ -10,6 +10,15 @@
   main {
     /* background-color: lavender; */
   }
+
+    /* NAVBAR */
+    .navbar-nav li {
+      /* background-color: aquamarine; */
+      text-align: center;
+      margin-right: .5rem;
+      font-size: .9rem;
+    }
+    /* END NAVBAR */
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -20,11 +29,12 @@
 
   /* NAVBAR */
   .navbar-nav li {
+    /* background-color: aquamarine; */
     text-align: center;
     margin-right: 0;
   }
 
-  .navbar-nav li button {
+  .navbar-nav li .btn {
     margin-top: 1rem;
   }
   /* END NAVBAR */
