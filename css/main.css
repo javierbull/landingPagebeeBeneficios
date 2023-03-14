@@ -857,7 +857,7 @@ header .container-fluid {
   /* background-color: lavender; */
 }
 
-#form-dni {
+.form-dni {
   display: none;
 }
 /* END SECTION CONTACT */
