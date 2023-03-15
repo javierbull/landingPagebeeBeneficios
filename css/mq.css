@@ -1,15 +1,10 @@
 /* Large devices (laptops, less than 1400px) */
 @media (max-width: 1400px) {
-  main {
-    /* background-color: gray; */
-  }
+ 
 }
 
 /* Large devices (desktops, tablets landscape, less than 1200px) */
-@media (max-width: 1199.98px) {
-  main {
-    /* background-color: lavender; */
-  }
+@media (max-width: 1200px) {
 
     /* NAVBAR */
     .navbar-nav li {
@@ -19,13 +14,17 @@
       font-size: .9rem;
     }
     /* END NAVBAR */
+
+    /* Section Contact */
+  .info-contact-list li {
+    /* background-color: aquamarine; */
+    font-size: 1rem;
+  }
+  /* End section contact */
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-  main {
-    /* background-color: salmon; */
-  }
+@media (max-width: 992px) {
 
   /* NAVBAR */
   .navbar-nav li {
@@ -63,19 +62,17 @@
   /* END SECTION BRANDS */
 
   /* SECTION CONTACT */
-  .info-contact-list {
-    /* background-color: pink; */
-    margin-bottom: 2rem;
+  .wrap-info-contact {
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
   }
   /* END SECTION CONTACT */
-
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-  main {
-    /* background-color: lightblue; */
-  }
+@media (max-width: 768px) {
 
   /* SECTION CONTACT */
   .sectionAndLogo {
@@ -110,7 +107,7 @@
 }
 
 
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
   main {
     /* background-color: lightyellow; */
   }
@@ -122,9 +119,10 @@
   /* End section hero */
 
   /* Section Contact */
-  .info-contact-list li {
-    /* background-color: aquamarine; */
-    font-size: 1rem;
+  .form-contact {
+    /* background-color: lavender; */
+    width: 100%;
   }
   /* End section contact */
+
 }

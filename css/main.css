@@ -836,6 +836,12 @@ header .container-fluid {
   height: 2rem;
 }
 
+.wrap-info-contact {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
 .info-contact-list {
   /* background-color: pink; */
   list-style: none;
@@ -855,6 +861,7 @@ header .container-fluid {
 
 .form-contact {
   /* background-color: lavender; */
+  width: 35rem;
 }
 
 .form-dni {
