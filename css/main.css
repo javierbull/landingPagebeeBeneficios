@@ -820,7 +820,9 @@ header .container-fluid {
 }
 
 .wrap-brands img {
-  height: 3.75rem;
+  width: 6rem;
+  height: 4rem;
+  object-fit: contain;
 }
 /* END SECTION BRANDS */
 
