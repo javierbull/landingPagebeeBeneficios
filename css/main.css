@@ -620,19 +620,19 @@ header .container-fluid {
 
 .section-about-content{
   /* background-color: #36AE7C; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
+  align-items: center;
 }
 
 
 .section-about__text {
-  width: 50%;
+  /* width: 48%; */
 }
 .section-about__image {
   /* background-color: blue; */
-  width: 50%;
+  /* width: 48%; */
   overflow: hidden;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;

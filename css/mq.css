@@ -83,6 +83,14 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 768px) {
+  /* SECTION ABOUT */
+  .section-about-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  /* END SECTION ABOUT */
 
   /* SECTION CONTACT */
   .sectionAndLogo {
