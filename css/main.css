@@ -353,22 +353,9 @@ h4 {
 }
 
 .button-icon {
-  color: var(--dark);
-  background-color: none;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.button-icon:hover {
-  color: var(--dark);
-  background-color: var(--gray-light);
-}
-
-.button-icon:focus {
-  color: var(--dark);
-  background-color: none;
-  box-shadow: 0 0 0 0.25rem rgba(20, 20, 43, 0.25);
 }
 
 .button-icon-sm {
@@ -536,6 +523,12 @@ header .container-fluid {
   padding-top: .5rem;
   padding-bottom: .5rem;
   box-shadow: 0px 4px 4px rgba(175, 177, 189, 0.25);
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .navbar-brand img {
