@@ -844,7 +844,9 @@ header .container-fluid {
 .wrap-info-contact {
   display: flex;
   gap: 1.5rem;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .info-contact-list {
@@ -854,10 +856,16 @@ header .container-fluid {
 }
 
 .info-contact-list li {
+  /* background-color: #36AE7C; */
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
+  justify-content: center;
   font-size: 1.25rem;
+}
+
+.info-contact-list li:last-child {
+  margin-bottom: 0;
 }
 
 .info-contact-list li span {
@@ -865,8 +873,15 @@ header .container-fluid {
 }
 
 .form-contact {
-  /* background-color: lavender; */
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 1rem;
   width: 35rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  box-shadow: var(--shadow);
 }
 
 .form-dni {
