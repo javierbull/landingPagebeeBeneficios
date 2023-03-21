@@ -21,6 +21,16 @@
     font-size: 1rem;
   }
   /* End section contact */
+
+  /* Offcanvas */
+  #btn-menu-mobile {
+    display: block;
+  }
+
+  .navbar-nav {
+    display: none;
+  }
+  /* End offcanvas */
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -111,6 +121,25 @@
   main {
     /* background-color: lightyellow; */
   }
+
+  /* navbar */
+  header .container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+  .navbar-left {
+    gap: .5rem;
+  }
+
+  #btn-menu-mobile {
+    width: 2rem;
+  }
+
+  .navbar-brand img {
+    height: .75rem;
+  }
+  /* End navbar */
 
   /* Section hero */
   .content-hero h1 {

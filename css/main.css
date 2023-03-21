@@ -353,6 +353,14 @@ h4 {
 }
 
 .button-icon {
+  /* background-color: #36AE7C; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-icon span {
+  /* background-color: #C2E7FF; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -555,13 +563,12 @@ header .container-fluid {
 
 /* HERO  */
 .hero {
-  background-color: pink;
-  /* background-image: url(../img/hero.jpg); */
+  /* background-color: pink; */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   width: 100%;
-  height: 42rem;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -578,10 +585,15 @@ header .container-fluid {
 
 
 .overlay {
-  background-color: rgba(20, 20, 43, 0.7);
+  background-color: rgba(20, 20, 43, 0.5);
   position: absolute;
   width: 100%;
   height: 100%;
+  transition: ease .3s;
+}
+
+.overlay:hover {
+  background-color: rgba(20, 20, 43, 0.3);
 }
 
 .content-hero {
@@ -922,3 +934,31 @@ header .container-fluid {
 }
 
 /* END PÁGINA NUESTROS SERVICIOS */
+
+/* OFFCANVAS */
+.offcanvas-header {
+  /* background-color: #C1F8CF; */
+  height: 3.5rem;
+}
+.offcanvas-header img {
+  height: 1.25rem;
+}
+.offcanvas-body {
+  /* background-color: pink; */
+  height: calc(100vh - 3.5rem);
+  overflow-y: auto;
+}
+
+.menu-offcanvas-mobile {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu-offcanvas-mobile li {
+  margin-bottom: 1rem;
+}
+
+#btn-menu-mobile {
+  display: none;
+}
+/* END OFFCANVAS */
