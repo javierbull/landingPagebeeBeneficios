@@ -50,7 +50,7 @@
 
   /*SECTION ABOUT */
   .section {
-    padding: 2rem .5rem;
+    padding: 4rem .5rem;
   }
   /* END SECTION ABOUT */
 
@@ -159,6 +159,10 @@
   .form-contact {
     /* background-color: lavender; */
     width: 100%;
+  }
+
+  .bee-list {
+    padding-left: 1rem;
   }
   /* End section contact */
 
