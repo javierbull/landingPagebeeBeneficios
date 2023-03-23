@@ -783,6 +783,12 @@ header .container-fluid {
   padding-top: 3.5rem;
   text-align: center;
 }
+
+.bee-list {
+  /* background-color: #C1F8CF; */
+  padding-left: 0;
+  text-align: left;
+}
 /* END SECTION ALLIES */
 
 /* SECTION WHY */
@@ -871,11 +877,10 @@ header .container-fluid {
 
 .info-contact-list li {
   /* background-color: #36AE7C; */
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.25rem;
 }
 
 .info-contact-list li:last-child {
