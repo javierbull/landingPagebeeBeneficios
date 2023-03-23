@@ -589,11 +589,13 @@ header .container-fluid {
   position: absolute;
   width: 100%;
   height: 100%;
+  left: 0;
+  top: 0;
   transition: ease .3s;
 }
 
-.overlay:hover {
-  background-color: rgba(20, 20, 43, 0.3);
+.hero:hover .overlay, .section-contact:hover .overlay {
+  background-color: rgba(20, 20, 43, 0.4);
 }
 
 .content-hero {
@@ -614,8 +616,8 @@ header .container-fluid {
 
 /* SECTION ABOUT */
 .section {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
 }
 
 .section-about-content{
@@ -861,7 +863,23 @@ header .container-fluid {
   height: 2rem;
 }
 
+.section-contact {
+  /* background-color: #E6B800; */
+  position: relative;
+}
+
+.content-contact {
+  /* background-color: #0d6efd; */
+  z-index: 2;
+  position: relative;
+}
+
+.section-header-contact {
+  /* color: var(--white); */
+}
+
 .wrap-info-contact {
+  /* background-color: #36AE7C; */
   display: flex;
   gap: 1.5rem;
   flex-direction: column;
@@ -881,6 +899,7 @@ header .container-fluid {
   display: flex;
   align-items: center;
   justify-content: center;
+  /* color: var(--white); */
 }
 
 .info-contact-list li:last-child {
@@ -905,6 +924,13 @@ header .container-fluid {
 
 .form-dni {
   display: none;
+}
+
+.bg-contact {
+  background-image: url(../img/bg-contact.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 /* END SECTION CONTACT */
 
