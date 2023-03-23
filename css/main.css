@@ -500,13 +500,17 @@ input[type=number] {
 }
 
 .modal-detalle-servicio {
+  /* background-color: #36AE7C; */
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
+  /* align-items: flex-start; */
 }
 
 .detalle-servicio__img {
+  /* display: block; */
   width: 100%;
+  object-fit: cover;
   border-radius: .5rem;
   -webkit-border-radius: .5rem;
   -moz-border-radius: .5rem;
