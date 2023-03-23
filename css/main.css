@@ -666,9 +666,6 @@ header .container-fluid {
 /* END SECTION ABOUT */
 
 /* SECTION SERVICES */
-.section-services {
-  background-color: var(--smoke-light);
-}
 
 .wrap-service-cards {
   padding-top: 2rem;
@@ -789,7 +786,7 @@ header .container-fluid {
 /* END SECTION ALLIES */
 
 /* SECTION WHY */
-.section-why {
+.bg-section {
   background-color: var(--smoke-light);
 }
 
@@ -845,9 +842,6 @@ header .container-fluid {
 /* END SECTION BRANDS */
 
 /* SECTION CONTACT */
-.section-contact {
-  background-color: var(--smoke-light);
-}
 
 .sectionAndLogo {
   /* background-color: pink; */
@@ -965,7 +959,7 @@ header .container-fluid {
 }
 
 .table-plans-service {
-  background-color: lavender;
+  /* background-color: lavender; */
 }
 
 /* END PÁGINA NUESTROS SERVICIOS */
