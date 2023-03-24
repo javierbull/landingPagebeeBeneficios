@@ -1026,3 +1026,9 @@ header .container-fluid {
   display: none;
 }
 /* END OFFCANVAS */
+
+/* SECTION CORPORATE SALES */
+ul li {
+  margin-bottom: .5rem;
+}
+/* EN DSECTION CORPORATE SALES */
