@@ -5,6 +5,16 @@
   font-size: .875rem;
 }
  /* END NAVBAR */
+
+ /* SERVICES */
+ .card-service, .card-kpi {
+  width: 16rem;
+}
+
+.card-kpi__number {
+  font-size: 2.5rem;
+}
+ /* END SERVICES */
 }
 
 /* Large devices (desktops, tablets landscape, less than 1200px) */
