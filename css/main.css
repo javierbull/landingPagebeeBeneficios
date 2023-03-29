@@ -547,17 +547,18 @@ header .container-fluid {
   height: 1.5rem;
 }
 
-.navbar-nav li {
+.navbar-nav {
+  /* background-color: #C1F8CF; */
+  display: flex;
+  gap: 1rem;
+  align-items: center;
   margin-right: 1rem;
-}
-
-.navbar-nav li:last-child {
-  margin-right: 0;
 }
 
 .navbar-nav .nav-item .nav-link {
   color: var(--dark) !important;
   transition: .1s  ease-in;
+  padding: 0;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -1028,7 +1029,5 @@ header .container-fluid {
 /* END OFFCANVAS */
 
 /* SECTION CORPORATE SALES */
-ul li {
-  margin-bottom: .5rem;
-}
+
 /* EN DSECTION CORPORATE SALES */

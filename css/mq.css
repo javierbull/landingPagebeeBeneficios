@@ -1,19 +1,14 @@
 /* Large devices (laptops, less than 1400px) */
 @media (max-width: 1400px) {
- 
+ /* NAVBAR */
+ .navbar-nav .nav-item .nav-link {
+  font-size: .9rem;
+}
+ /* END NAVBAR */
 }
 
 /* Large devices (desktops, tablets landscape, less than 1200px) */
 @media (max-width: 1200px) {
-
-    /* NAVBAR */
-    .navbar-nav li {
-      /* background-color: aquamarine; */
-      text-align: center;
-      margin-right: .5rem;
-      font-size: .9rem;
-    }
-    /* END NAVBAR */
 
     /* Section Contact */
   .info-contact-list li {
