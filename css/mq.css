@@ -61,6 +61,14 @@
   .section {
     padding: 4rem .5rem;
   }
+
+  .section-about__text {
+    text-align: center;
+  }
+
+  .list-bee {
+    text-align: left;
+  }
   /* END SECTION ABOUT */
 
   /* OWL CAROUSEL */

@@ -524,6 +524,12 @@ input[type=number] {
 }
 /* END MODALS */
 
+/* LIST */
+.list-bee li {
+  margin-bottom: .5rem;
+}
+/* END LIST */
+
 /* FIN ESTILOS GENERALES */
 
 /* NAVBAR */
@@ -601,7 +607,7 @@ header .container-fluid {
 }
 
 .hero:hover .overlay, .section-contact:hover .overlay {
-  background-color: rgba(20, 20, 43, 0.4);
+  background-color: rgba(20, 20, 43, 0.3);
 }
 
 .content-hero {
