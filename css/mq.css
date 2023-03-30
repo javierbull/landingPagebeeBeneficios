@@ -2,7 +2,7 @@
 @media (max-width: 1400px) {
  /* NAVBAR */
  .navbar-nav .nav-item .nav-link {
-  font-size: .875rem;
+  font-size: .8125rem;
 }
  /* END NAVBAR */
 
@@ -13,6 +13,10 @@
 
 .card-kpi__number {
   font-size: 2.5rem;
+}
+
+.card-kpi__text {
+  font-size: 1rem;
 }
  /* END SERVICES */
 }
