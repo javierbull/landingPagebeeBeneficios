@@ -925,9 +925,20 @@ figure {
 }
 
 .content-contact {
-  /* background-color: #0d6efd; */
   z-index: 2;
   position: relative;
+  font-size: 1.25rem;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  backdrop-filter: blur(2.5px);
+  box-shadow: 0 4px 16px var(--primary-dark);
 }
 
 .section-header-contact {
@@ -955,7 +966,6 @@ figure {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* color: var(--white); */
 }
 
 .info-contact-list li:last-child {
@@ -976,6 +986,7 @@ figure {
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
   box-shadow: var(--shadow);
+  display: none;
 }
 
 .form-dni {
@@ -983,7 +994,8 @@ figure {
 }
 
 .bg-contact {
-  background-image: url(../img/bg-contact.jpg);
+  background-color: var(--primary);
+  background-image: url(../img/bgBanner.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
