@@ -270,36 +270,56 @@ h4 {
   background-color: var(--primary);
   color: var(--dark);
   border: solid 2px var(--dark);
-  box-shadow: 0 .5rem var(--dark);
+  /* box-shadow: 0 .2rem var(--dark); */
   padding: .75rem 1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
+  transition: all .3s ease-in-out;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
 }
 
 .button-hero-primary:hover {
   background-color: var(--primary);
   color: var(--dark);
-  box-shadow: .5rem .5rem var(--dark);
+  box-shadow: 0 .2rem var(--dark);
+  transform: scale3d(1.1, 1.1, 1.1);
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  -moz-transform: scale3d(1.1, 1.1, 1.1);
+  -ms-transform: scale3d(1.1, 1.1, 1.1);
+  -o-transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .button-hero-primary:focus {
-  background-color: var(--white);
+  background-color: var(--primary);
   color: var(--dark);
   box-shadow: 0 .5rem var(--dark);
 }
 
 .button-hero-secondary {
-  background-color: var(--white);
-  color: var(--dark);
-  border: solid 2px var(--dark);
-  box-shadow: 0 .5rem var(--dark);
-  padding: .75rem 1rem;
-  font-size: 1.5rem;
+   background-color: var(--white);
+   color: var(--dark);
+   border: solid 2px var(--dark);
+   /* box-shadow: 0 .2rem var(--dark); */
+   padding: .75rem 1rem;
+   font-size: 1.25rem;
+   transition: all .3s ease-in-out;
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -ms-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
 }
 
 .button-hero-secondary:hover {
   background-color: var(--white);
   color: var(--dark);
-  box-shadow: .5rem .5rem var(--dark);
+  box-shadow: 0 .25rem var(--dark);
+  transform: scale3d(1.1, 1.1, 1.1);
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+  -moz-transform: scale3d(1.1, 1.1, 1.1);
+  -ms-transform: scale3d(1.1, 1.1, 1.1);
+  -o-transform: scale3d(1.1, 1.1, 1.1);
 }
 
 .button-hero-secondary:focus {
@@ -666,7 +686,7 @@ header .container-fluid {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  width: 70%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
