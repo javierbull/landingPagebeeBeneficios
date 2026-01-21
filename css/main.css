@@ -633,6 +633,11 @@ header .container-fluid {
 .navbar-nav .nav-item .nav-link:hover {
   color: var(--info) !important;
 }
+
+.navbar-nav .nav-item .active {
+  color: var(--info) !important;
+  font-weight: 600;
+}
 /* END NAVBAR */
 
 /* HERO  */

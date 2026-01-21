@@ -10,7 +10,7 @@
     content="Bee beneficios es un programa de bienestar y experiencia para tus colaboradores. Te ayudamos a potenciar el clima laboral de tu empresa a través de la dministración y gestión de beneficios.">
   <meta name="keywords"
     content="Buen clima laboral, experiencias, promociones, ofertas, regalar, bienestar laboral, colaboradores, beneficios">
-  <title>bee Beneficios</title>
+  <title>Servicios</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -37,13 +37,13 @@
 
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Inicio</a>
+            <a class="nav-link" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">¿Qué es beeBeneficios?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="servicios.html">Nuestros Servicios</a>
+            <a class="nav-link active" href="servicios.html">Nuestros Servicios</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="afiliarEmpresa.html">Afilia tu empresa</a>
@@ -67,24 +67,76 @@
   </header>
 
   <main>
-    <section class="hero bg-img-hero">
+
+    <section class="section section-services bg-section" id="section-services">
       <div class="container">
-        <div class="wrap-content-hero">
-          <div class="content-hero-img">
-            <img src="img/abeja.gif" class="hero-img" alt="">
+        <div class="row">
+          <div class="section-header col-lg-6">
+            <h2>Nuestros servicios</h2>
+            <p>
+              Te acompañamos en cada parte del proceso y siempre innovamos en nuevas formas de darle valor a tus
+              colaboradores.
+            </p>
           </div>
-          
-          <div class="content-hero">
-            <h1>
-              ¡Los mejores descuentos en tus marcas favoritas al alcance de tus manos!
-            </h1>
-            <div class="wrap-btns-hero">
-              <a href="#" type="button" name="button" class="btn button-hero-primary">
-                Empieza ahora
-              </a>
-              <a href="#" type="button" name="button" class="btn button-hero-secondary">
-                Ya tengo una cuenta
-              </a>
+          <div class="wrap-service-cards">
+            <div class="card-service">
+              <figure>
+                <img src="img/logos/venta.png" alt="Descuentos Exclusivos">
+              </figure>
+              <h2 class="card-service__title">Descuentos exclusivos</h2>
+              <p>
+                En entretenimientos, restaurantes, bienestar y más.
+              </p>
+              <div class="wrap-service-cta">
+                <button class="btn button-primary" data-bs-toggle="modal" data-bs-target="#modal-promociones">
+                  Saber más
+                </button>
+              </div>
+            </div>
+            <div class="card-service">
+              <figure>
+                <img src="img/logos/plataforma.png" alt="Plataforma Digital">
+              </figure>
+              <h2 class="card-service__title">Canales de atención</h2>
+              <p>
+                Plataforma digital personalizada y activaciones presenciales en tus
+                oficinas.
+              </p>
+              <div class="wrap-service-cta">
+                <button class="btn button-primary" data-bs-toggle="modal" data-bs-target="#modal-plataforma">
+                  Saber más
+                </button>
+              </div>
+            </div>
+            <div class="card-service">
+              <figure>
+                <img src="img/logos/regalos.png" alt="Regalos">
+              </figure>
+              <h2 class="card-service__title">Gift cards digitales y sistema de puntos</h2>
+              <p>
+                Para reconocer y premiar a tus equipos en fechas especiales.
+              </p>
+              <div class="wrap-service-cta">
+                <button class="btn button-primary" data-bs-toggle="modal" data-bs-target="#modal-gift-cards">
+                  Saber más
+                </button>
+              </div>
+            </div>
+            <div class="card-service">
+              <figure>
+                <img src="img/logos/busqueda.png" alt="Plataforma Administrativa">
+              </figure>
+              <h2 class="card-service__title">Plataforma administrativa</h2>
+              <p>
+                Para que puedas autogestionarte y medir nuestro
+                impacto en tu empresa.
+              </p>
+              <div class="wrap-service-cta">
+                <button class="btn button-primary" data-bs-toggle="modal"
+                  data-bs-target="#modal-plataforma-administrativa">
+                  Saber más
+                </button>
+              </div>
             </div>
           </div>
         </div>

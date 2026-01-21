@@ -10,7 +10,7 @@
     content="Bee beneficios es un programa de bienestar y experiencia para tus colaboradores. Te ayudamos a potenciar el clima laboral de tu empresa a través de la dministración y gestión de beneficios.">
   <meta name="keywords"
     content="Buen clima laboral, experiencias, promociones, ofertas, regalar, bienestar laboral, colaboradores, beneficios">
-  <title>bee Beneficios</title>
+  <title>Contacto</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -37,7 +37,7 @@
 
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Inicio</a>
+            <a class="nav-link" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">¿Qué es beeBeneficios?</a>
@@ -57,7 +57,6 @@
         </ul>
 
         <div class="btn-group">
-
           <a class="btn button-primary" href="contacto.html">
             Contáctanos
           </a>
@@ -67,24 +66,106 @@
   </header>
 
   <main>
-    <section class="hero bg-img-hero">
+    <section class="section section-contact bg-contact" id="section-contact">
+      <!-- <div class="overlay"></div> -->
       <div class="container">
-        <div class="wrap-content-hero">
-          <div class="content-hero-img">
-            <img src="img/abeja.gif" class="hero-img" alt="">
-          </div>
-          
-          <div class="content-hero">
-            <h1>
-              ¡Los mejores descuentos en tus marcas favoritas al alcance de tus manos!
-            </h1>
-            <div class="wrap-btns-hero">
-              <a href="#" type="button" name="button" class="btn button-hero-primary">
-                Empieza ahora
-              </a>
-              <a href="#" type="button" name="button" class="btn button-hero-secondary">
-                Ya tengo una cuenta
-              </a>
+        <div class="row">
+          <div class="content-contact col-lg-6">
+            <div class="section-header section-header-contact">
+              <div class="sectionAndLogo">
+                <h2>Contáctanos</h2>
+              </div>
+              <p>
+                Escríbenos y uno de nuestros asesores de venta se pondrá en contacto contigo.
+              </p>
+            </div>
+  
+            <div class="wrap-info-contact">
+              <ul class="info-contact-list">
+                <li>
+                  <span class="material-icons">
+                    place
+                  </span>
+                  Av. Arequipa 1860, Lince
+                </li>
+                <li>
+                  <span class="material-icons">
+                    mail_outline
+                  </span>
+                  ventascorporativas@bee.com.pe
+                </li>
+              </ul>
+  
+              <form class="form-contact">
+                <div class="row">
+                  <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                    <label for="inputNameClient" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="inputNameClient" aria-describedby="nameHelp">
+                    <div id="nameHelp" class="text-help">Ingrese su nombre</div>
+                  </div>
+                  <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                    <label for="inputLastNameClient" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="inputLastNameClient" aria-describedby="nameHelp">
+                    <div id="nameHelp" class="text-help">Ingrese su apellido</div>
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                    <label for="inputEmailClient" class="form-label">Correo</label>
+                    <input type="email" class="form-control" id="inputEmailClient" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="text-help">Ingrese su correo</div>
+                  </div>
+  
+                  <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                    <label for="inputPhoneClient" class="form-label">Celular</label>
+                    <input type="number" class="form-control" id="inputPhoneClient" aria-describedby="phoneHelp">
+                    <div id="phoneHelp" class="text-help">Ingrese su celular</div>
+                  </div>
+                </div>
+  
+                <div class="row">
+                  <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                    <label for="selectTipoPersona" class="form-label">Seleccione</label>
+                    <select class="form-select" aria-label="Default select example" id="selectTipoPersona">
+                      <option value="pj" selected>Empresa</option>
+                      <option value="pn">Persona Natural</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-lg-6 col-md-6 col-sm-12 form-box pj" id="form-ruc">
+                    <label for="inputRuc" class="form-label">RUC</label>
+                    <input type="text" class="form-control" id="inputRuc" aria-describedby="enterpriseHelp">
+                    <div id="enterpriseHelp" class="text-help">Ingrese el RUC</div>
+                  </div>
+  
+                  <div class="form-group col-lg-6 col-md-6 col-sm-12 form-box pn" id="form-dni">
+                    <label for="inputId" class="form-label">DNI</label>
+                    <input type="number" class="form-control" id="inputId" aria-describedby="enterpriseHelp">
+                    <div id="enterpriseHelp" class="text-help">Ingrese su DNI</div>
+                  </div>
+                </div>
+  
+                <div class="form-group form-box pj" id="form-razon-social">
+                  <label for="inputRazonSocial" class="form-label">Razón Social</label>
+                  <input type="text" class="form-control" id="inputRazonSocial" aria-describedby="enterpriseHelp">
+                  <div id="enterpriseHelp" class="text-help">Ingrese el nombre de su empresa</div>
+                </div>
+  
+                <div class="form-group">
+                  <label for="selectServiceClient" class="form-label">Servicio de interes</label>
+                  <select class="form-select" aria-label="Default select example" id="selectServiceClient">
+                    <option selected>Quiero afiliar mi empresa</option>
+                    <option value="1">Quiero afiliar mi marca</option>
+                  </select>
+                </div>
+  
+                <div class="form-group">
+                  <label for="inputMessage">Mensaje</label>
+                  <textarea class="form-control" id="inputMessage" style="height: 100px"></textarea>
+                </div>
+  
+                <button type="submit" class="btn button-primary d-block ml-auto">Enviar Mensaje</button>
+              </form>
             </div>
           </div>
         </div>
