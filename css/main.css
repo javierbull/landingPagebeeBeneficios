@@ -1117,5 +1117,8 @@ figure {
 /* END OFFCANVAS */
 
 /* SECTION CORPORATE SALES */
-
+.section-corporate {
+  /* background-color: pink; */
+  min-height: 100vh;
+}
 /* EN DSECTION CORPORATE SALES */
