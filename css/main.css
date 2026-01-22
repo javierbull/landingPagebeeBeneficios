@@ -969,13 +969,12 @@ figure {
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
-  margin-left: auto;
-  margin-right: auto;
   backdrop-filter: blur(2.5px);
   box-shadow: 0 4px 16px var(--primary-dark);
   display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 100%;
 }
 
 .section-header-contact {

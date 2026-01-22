@@ -137,6 +137,13 @@
   }
 
   /* END HERO */
+
+  /* CONTACT */
+  .wrap-contact-img {
+    margin-bottom: 1.5rem;
+  }
+
+  /* END CONTACT */
 }
 
 /* Small devices (landscape phones, less than 768px) */
