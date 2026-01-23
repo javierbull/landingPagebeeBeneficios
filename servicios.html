@@ -30,7 +30,7 @@
       <div class="container-fluid">
         <div class="navbar-left">
 
-          <a class="navbar-brand" href="#header">
+          <a class="navbar-brand" href="index.html">
             <img src="img/logos/logobeebeneficios.svg" alt="bee beneficios">
           </a>
         </div>
@@ -56,15 +56,52 @@
           </li>
         </ul>
 
-        <div class="btn-group">
-
-          <a class="btn button-primary" href="contacto.html">
+        <div class="btn-group-navbar">
+          <a class="btn button-primary btn-contacto-navbar" href="contacto.html">
             Contáctanos
           </a>
+
+          <button class="btn btn-light btn-menu-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight">
+            <span class="material-icons-outlined">
+              menu
+            </span>
+          </button>
         </div>
       </div>
     </nav>
   </header>
+
+  <!-- SECCIONES MOBILE -->
+  <div class="offcanvas offcanvas-end off-canvas-secciones" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">.</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav-mobile">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">¿Qué es beeBeneficios?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">Nuestros Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="afiliarEmpresa.html">Afilia tu empresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="afiliarMarca.html">Afilia tu marca</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ventasCorporativas.html">Ventas corporativas</a>
+          </li>
+        </ul>
+    </div>
+  </div>
+  <!-- END SECCIONE SMOBILE -->
 
   <main>
 

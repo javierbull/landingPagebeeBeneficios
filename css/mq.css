@@ -45,6 +45,14 @@
     display: none;
   }
 
+  .btn-contacto-navbar {
+    display: none;
+  }
+
+  .btn-menu-mobile {
+    display: block;
+  }
+
   /* End offcanvas */
 }
 
@@ -250,7 +258,8 @@
     width: 100%;
   }
 
-  .button-hero-primary, .button-hero-secondary {
+  .button-hero-primary,
+  .button-hero-secondary {
     padding: .5rem 1rem;
     font-size: 1.25rem;
   }

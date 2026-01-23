@@ -638,7 +638,38 @@ header .container-fluid {
   color: var(--info) !important;
   font-weight: 600;
 }
+
+.btn-group-navbar {
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn-menu-mobile {
+  display: none;
+  border: solid 1px var(--gray);
+  height: 2.5rem;
+}
 /* END NAVBAR */
+
+/* SECCIONES MOBILE */
+.off-canvas-secciones h5 {
+  color: var(--white);
+}
+
+.navbar-nav-mobile {
+  /* background-color: pink; */
+  list-style: none;
+  padding-left: 0;
+}
+
+.navbar-nav-mobile .nav-link {
+  color: var(--dark);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+/* END SECCIONES MOBILE */
 
 /* HERO  */
 .hero {

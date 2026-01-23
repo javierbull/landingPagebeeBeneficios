@@ -30,7 +30,7 @@
       <div class="container-fluid">
         <div class="navbar-left">
 
-          <a class="navbar-brand" href="#header">
+          <a class="navbar-brand" href="index.html">
             <img src="img/logos/logobeebeneficios.svg" alt="bee beneficios">
           </a>
         </div>
@@ -56,15 +56,52 @@
           </li>
         </ul>
 
-        <div class="btn-group">
-
-          <a class="btn button-primary" href="contacto.html">
+        <div class="btn-group-navbar">
+          <a class="btn button-primary btn-contacto-navbar" href="contacto.html">
             Contáctanos
           </a>
+
+          <button class="btn btn-light btn-menu-mobile" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight">
+            <span class="material-icons-outlined">
+              menu
+            </span>
+          </button>
         </div>
       </div>
     </nav>
   </header>
+
+  <!-- SECCIONES MOBILE -->
+  <div class="offcanvas offcanvas-end off-canvas-secciones" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 id="offcanvasRightLabel">.</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav-mobile">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">¿Qué es beeBeneficios?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">Nuestros Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="afiliarEmpresa.html">Afilia tu empresa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="afiliarMarca.html">Afilia tu marca</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ventasCorporativas.html">Ventas corporativas</a>
+          </li>
+        </ul>
+    </div>
+  </div>
+  <!-- END SECCIONE SMOBILE -->
 
   <main>
     <section class="hero bg-img-hero">
@@ -73,7 +110,7 @@
           <div class="content-hero-img">
             <img src="img/abeja.gif" class="hero-img" alt="">
           </div>
-          
+
           <div class="content-hero">
             <h1>
               ¡Los mejores descuentos en tus marcas favoritas al alcance de tus manos!
@@ -147,7 +184,7 @@
                 whatsApp: 992 192 643 <br>
                 Correo: hola@bee.com.pe
               </li>
-              
+
               <li>
                 De Lunes a Viernes: <br>
                 9:00 am - 6:00 pm
@@ -231,7 +268,7 @@
         <div class="modal-body">
           <div class="modal-detalle-servicio">
             <img src="img/servicios-promociones.jpg" alt="promociones descuentos" class="detalle-servicio__img">
-           
+
             <div class="modal-detalle-servicio__desc">
               <p>
                 Ofrecemos hasta 60% de descuento en marcas exclusivas.
@@ -264,16 +301,19 @@
             <img src="img/canalesDeAtencion.jpeg" alt="canales de atencion" class="detalle-servicio__img">
             <div class="modal-detalle-servicio__desc">
               <p>
-                Nuestra plataforma beeBeneficios te permite contar con un espacio digital exclusivo y privado solo para tus colaboradores.
+                Nuestra plataforma beeBeneficios te permite contar con un espacio digital exclusivo y privado solo para
+                tus colaboradores.
               </p>
               <p>
                 Podrás realizar diferentes acciones de incentivo y compensaciones.
               </p>
               <p>
-                Nuestras activaciones Inhouse nos permiten mantenerte conectado con tus colaboradores, afianzando aún más tu relación con ellos. 
+                Nuestras activaciones Inhouse nos permiten mantenerte conectado con tus colaboradores, afianzando aún
+                más tu relación con ellos.
               </p>
               <p>
-                Nos permite crear un ambiente dinámico donde el único mensaje que ofreceremos es tu preocupación y respaldo en ofrecerles a tus colaboradores la mejor experiencia en beneficios.
+                Nos permite crear un ambiente dinámico donde el único mensaje que ofreceremos es tu preocupación y
+                respaldo en ofrecerles a tus colaboradores la mejor experiencia en beneficios.
               </p>
             </div>
           </div>
@@ -327,7 +367,9 @@
               class="detalle-servicio__img">
             <div class="modal-detalle-servicio__desc">
               <p>
-                Podrás migrar a los servicios de beesuits, que te permitirá tener en tiempo real toda la información de interacción realizada en nuestra plataforma, podrás colgar tus propios beneficios, comunicación y publicidad dentro de tu espacio digital.
+                Podrás migrar a los servicios de beesuits, que te permitirá tener en tiempo real toda la información de
+                interacción realizada en nuestra plataforma, podrás colgar tus propios beneficios, comunicación y
+                publicidad dentro de tu espacio digital.
               </p>
             </div>
           </div>
