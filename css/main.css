@@ -894,8 +894,7 @@ header .container-fluid {
 
 .service-img img {
   width: 80%;
-  height: 80%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .service-detail {

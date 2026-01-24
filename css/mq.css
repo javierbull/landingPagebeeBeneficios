@@ -152,6 +152,15 @@
   }
 
   /* END CONTACT */
+
+  /* SERVICIOS */
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+  }
+
+  /* END SERVICIOS */
 }
 
 /* Small devices (landscape phones, less than 768px) */
@@ -265,5 +274,16 @@
   }
 
   /* End hero */
+
+  /* SERVICIOS */
+  .service-item {
+    flex-direction: column;
+  }
+
+  .service-img img {
+    width: 50%;
+  }
+
+  /* END SERVICIOS */
 
 }
